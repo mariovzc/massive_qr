@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "placa": "ABCD",
+      "color": "AZUL",
+      "lugar": "baranoa"
+    },
+    {
+      "placa": "FEDSZ",
+      "color": "ROJO",
+      "lugar": "Barranquilla"
+    }
+  ]
+}

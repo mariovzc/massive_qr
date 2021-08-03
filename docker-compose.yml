@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  script:
+    build: $PWD/
+    volumes:
+      - $PWD/:/app
+      - ./files:/files
+    environment:
+      DATA_FILE_PATH: /files/data.json
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/ash
